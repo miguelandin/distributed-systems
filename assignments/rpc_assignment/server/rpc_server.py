@@ -1,9 +1,3 @@
-"""Esqueleto del servidor RPC.
-
-El alumno debe completar el registro, dispatch, gestión de errores
-y posteriormente la concurrencia.
-"""
-
 from __future__ import annotations
 
 from typing import Any, Callable

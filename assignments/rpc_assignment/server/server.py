@@ -1,9 +1,8 @@
 from __future__ import annotations
 
 import socket
-from rpc_server import RPCServer
-import procedures as proc
-
+from server.rpc_server import RPCServer
+import server.procedures as proc
 from common.protocol import send_json, recv_json
 from concurrent.futures import ThreadPoolExecutor
 from typing import Any
