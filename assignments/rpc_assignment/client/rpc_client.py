@@ -11,7 +11,7 @@ class ServerError(Exception):
 
 
 def get_data(response: dict[str, Any]):
-    if response.get('status') == 'ok2':
+    if response.get('status') == 'ok':
         return response.get('result')
     raise ServerError("Response status", response.get('status'))
 
