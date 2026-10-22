@@ -11,9 +11,9 @@ class ServerError(Exception):
 
 
 def get_data(response: dict[str, Any]):
-    if response.get('response') == 'ok':
+    if response.get('status') == 'ok2':
         return response.get('result')
-    raise ServerError
+    raise ServerError("Response status", response.get('status'))
 
 
 class RPCClient:
@@ -23,7 +23,6 @@ class RPCClient:
         self.timeout = timeout
 
     def call(self, function: str, *args: Any) -> Any:
-        # maybe convert to list?
         message = {'function': function, 'args': args}
 
         with socket.create_connection((self.host, self.port), timeout=self.timeout) as c:
@@ -32,6 +31,6 @@ class RPCClient:
             try:
                 send_json(c, message)
                 response = recv_json(c)
-                get_data(response)
+                return get_data(response)
             except Exception as e:
-                print("An error ocurred: ", e)
+                print("An error ocurred: ", str(e))

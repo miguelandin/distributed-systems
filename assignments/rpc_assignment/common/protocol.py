@@ -1,13 +1,3 @@
-"""Utilidades de protocolo proporcionadas por el profesor.
-
-Este módulo implementa un framing sencillo:
-- 4 bytes iniciales con la longitud del mensaje (big endian).
-- A continuación, el JSON codificado en UTF-8.
-
-El alumno puede reutilizar estas funciones, pero no debe modificar
-su comportamiento sin justificarlo.
-"""
-
 from __future__ import annotations
 
 import json
