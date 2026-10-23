@@ -11,6 +11,8 @@ def main():
     print(rpc.call("sumar", 4, 7))
     print(rpc.call("multiplicar", 3, 5))
     print(rpc.call("tarea_lenta", 2))
+    print(rpc.call("raiz_cuadrada", 64))
+    print(rpc.call("logaritmo_neperiano", 12))
 
 
 if __name__ == "__main__":

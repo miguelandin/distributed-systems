@@ -9,8 +9,12 @@ from __future__ import annotations
 
 import socket
 import unittest
+import subprocess
+from time import sleep
 
 from common.protocol import send_json, recv_json
+from client.rpc_client import RPCClient
+
 
 
 class ProtocolTests(unittest.TestCase):
@@ -34,12 +38,20 @@ class ProtocolTests(unittest.TestCase):
 
 
 class StudentTests(unittest.TestCase):
-    @unittest.skip("Activar cuando RPCClient y RPCServer estén implementados.")
     def test_rpc_sumar(self):
-        # TODO (alumno):
-        # Añadir una prueba de integración o de dispatch.
-        self.fail("Pendiente")
+        HOST = '127.0.0.1'
+        PORT = 5000
 
+        server = subprocess.Popen(["python","-m", "server.server"])
+        sleep(0.5)
+
+        try:
+            result = RPCClient(HOST,PORT).call("sumar",4,7)
+            self.assertEqual(result, 11)
+
+        finally:
+            server.terminate()
+            server.wait()
 
 if __name__ == "__main__":
     unittest.main()
