@@ -10,10 +10,17 @@ class ServerError(Exception):
     """Server couldn't process properly the petition"""
 
 
-def get_data(response: dict[str, Any]):
-    if response.get('status') == 'ok':
-        return response.get('result')
-    raise ServerError("Response status", response.get('status'))
+def get_data(response: dict[str, Any]) -> str:
+    status = response.get('status')
+
+    if status == 'ok':
+        return str(response.get('result'))
+    elif status == 'error':
+        message = response.get('message')
+        error = response.get('error')
+        return f"{error} : {message}"
+
+    raise ServerError("Couldn't process properly the petition")
 
 
 class RPCClient:

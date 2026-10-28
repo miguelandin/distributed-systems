@@ -14,9 +14,16 @@ class RPCServer:
         function = request.get("function")
         args = request.get("args", [])
 
-        if function not in self._procedures:
-            raise TypeError("function doesn't exists")
+        if not isinstance(function, str) or not isinstance(args, list):
+            return {"status": "error", "error": "INVALID_REQUEST", "message": "'function' must be a string and 'args' a list"}
+
+        procedure = self._procedures.get(function)
+
+        if procedure is None:
+            return {"status": "error", "error": "PROCEDURE_NOT_FOUND", "message": f"procedure '{function}' not found"}
         try:
-            return {"status": "ok", "result": self._procedures[function](*args)}
+            return {"status": "ok", "result": procedure(*args)}
         except TypeError as e:
-            return {"status": "error", "error": "EXECUTION_ERROR", "message": str(e)}
+            return {"status": "error", "error":"INVALID_ARGUMENTS", "message":str(e)}
+        except Exception as e:
+            return {"status": "error", "error": "FAILED_PROCEDURE_EXECUTION", "message": str(e)}

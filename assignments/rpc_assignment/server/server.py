@@ -5,9 +5,11 @@ from server.rpc_server import RPCServer
 import server.procedures as proc
 from common.protocol import send_json, recv_json
 from concurrent.futures import ThreadPoolExecutor
+from typing import Any
 
 HOST = "0.0.0.0"
 PORT = 5000
+READ_TIMEOUT = 10.0
 
 rpc = RPCServer()
 rpc.register("sumar", proc.sumar)
@@ -16,20 +18,30 @@ rpc.register("potencia", proc.potencia)
 rpc.register("tarea_lenta", proc.tarea_lenta)
 rpc.register("raiz_cuadrada", proc.raiz_cuadrada)
 rpc.register("logaritmo_neperiano", proc.logaritmo_neperiano)
+rpc.register("hora", proc.hora)
 
 
-def attend(client_socket: socket.socket, address:socket._Address):
+def attend(client_socket: socket.socket, address: socket._Address):
     with client_socket:
         print(f"Conexión recibida desde {address}")
+        client_socket.settimeout(READ_TIMEOUT)
+
         try:
             request = recv_json(client_socket)
-            print("Mensaje recibido: ", request)
+        except TimeoutError:
+            print(f"{address} timeout")
+            return
+        except ConnectionError:
+            print(f"{address} conection closed")
+            return
 
-            response = rpc.dispatch(request)
+        print(f"{address} petition: {request}")
+        response = rpc.dispatch(request)
+
+        try:
             send_json(client_socket, response)
-
-        except Exception as exc:
-            print(f"Error atendiendo la conexión: {exc}")
+        except OSError as e:
+            print(f"{address} response couldn't be sent: {e}")
 
 
 def main():

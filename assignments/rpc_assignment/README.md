@@ -41,7 +41,7 @@ python -m client.client_example
 
 ## Demostración
 A continuación se muestra cómo se comporta el sistema durante su ejecución:
-##### Lado del Servidor
+#### Lado del Servidor
 ![server_example](assets/server.gif)
-##### Lado del Cliente
+#### Lado del Cliente
 ![lado_cliente](assets/client.gif)

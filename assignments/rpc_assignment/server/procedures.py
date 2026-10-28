@@ -3,6 +3,7 @@
 from __future__ import annotations
 import time
 import math
+from datetime import datetime
 
 
 def sumar(a, b):
@@ -29,3 +30,7 @@ def raiz_cuadrada(a):
 
 def logaritmo_neperiano(a):
     return math.log(a)
+
+
+def hora():
+    return datetime.now().isoformat(timespec="seconds")

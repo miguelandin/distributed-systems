@@ -13,6 +13,7 @@ def main():
     print(rpc.call("tarea_lenta", 2))
     print(rpc.call("raiz_cuadrada", 64))
     print(rpc.call("logaritmo_neperiano", 12))
+    print(rpc.call("hora"))
 
 
 if __name__ == "__main__":
