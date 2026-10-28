@@ -10,11 +10,11 @@ class ServerError(Exception):
     """Server couldn't process properly the petition"""
 
 
-def get_data(response: dict[str, Any]) -> str:
+def get_data(response: dict[str, Any]) -> Any:
     status = response.get('status')
 
     if status == 'ok':
-        return str(response.get('result'))
+        return response.get('result')
     elif status == 'error':
         message = response.get('message')
         error = response.get('error')

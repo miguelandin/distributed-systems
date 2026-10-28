@@ -16,7 +16,6 @@ from common.protocol import send_json, recv_json
 from client.rpc_client import RPCClient
 
 
-
 class ProtocolTests(unittest.TestCase):
     def test_send_and_receive_json(self):
         left, right = socket.socketpair()
@@ -42,16 +41,17 @@ class StudentTests(unittest.TestCase):
         HOST = '127.0.0.1'
         PORT = 5000
 
-        server = subprocess.Popen(["python","-m", "server.server"])
+        server = subprocess.Popen(["python", "-m", "server.server"])
         sleep(0.5)
 
         try:
-            result = RPCClient(HOST,PORT).call("sumar",4,7)
+            result = RPCClient(HOST, PORT).call("sumar", 4, 7)
             self.assertEqual(result, 11)
 
         finally:
             server.terminate()
             server.wait()
+
 
 if __name__ == "__main__":
     unittest.main()
