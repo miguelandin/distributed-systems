@@ -40,4 +40,4 @@ class RPCClient:
                 response = recv_json(c)
                 return get_data(response)
             except Exception as e:
-                print("An error ocurred: ", str(e))
+                return f"An error ocurred calling the petition: {e}"

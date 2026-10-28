@@ -19,6 +19,7 @@ rpc.register("tarea_lenta", proc.tarea_lenta)
 rpc.register("raiz_cuadrada", proc.raiz_cuadrada)
 rpc.register("logaritmo_neperiano", proc.logaritmo_neperiano)
 rpc.register("hora", proc.hora)
+rpc.register("mensaje", proc.mensaje)
 
 
 def attend(client_socket: socket.socket, address: socket._Address):

@@ -34,3 +34,7 @@ def logaritmo_neperiano(a):
 
 def hora():
     return datetime.now().isoformat(timespec="seconds")
+
+
+def mensaje(a):
+    return a
