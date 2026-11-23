@@ -7,3 +7,29 @@ por qué has elegido el puerto 5000 para exponer? lo dice el enunciado? es un es
  He hecho un script dentro de deployment para que sea más cómodo de ejecutar el docker build. Seguro que hay una forma de coger el directorio assignments mejor.
  [docker images]Qué significa esta salida? No debería de tener solo la imagén de rpc-server:1.0? por qué tengo python:3.13-slim también? 
 Tengo la imagen corriendo pero parece que el cliente ha fallado. Este error es porque el cliente está mal o es el servidor el problema?
+Vamos con el siguiente paso
+Como creo el repositorio público desde la terminal?
+Vale, imagen subida, ahora que.
+Puedo y descargar correr la imagen directamente  en un mismo comando?
+Como selecciono todo el tráfico con el propio security group? es el default?
+No crees que 28Gb es excesivo? seguramente se halla confundido mi profe.
+La imagen de ubuntu la voy a dejar como está.
+Las reglas de salida están bien no? por que no me puedo conectar pos ssh.
+Estoy usando el .pem incorrecto?
+Como consigo el .pem?
+Ya he ejecutado el script de instalación de kubernetes en la máquina remota. Y está preprarado para que su imagen sea clonada. Debería cambiar su hostname? no sería repetida en las demás entonces?
+Estas pueden set t3.micro?
+Vale la he cagado, he ejecutado el script de kub_reset.sh como lo revierto.
+Failed to enable unit: Unit containerd.service does not exist
+vale ya he logrado vincularlos.
+He vuelto ha iniciar la máquinas despues de una noche y el get pods ya no devuelve nada. A que se debe el problema.
+Tengo los nodes. Con el kubectl apply -f *.yaml estoy creando los pods?
+he ejecutado el cliente y ha funcionado exitosamente, puedo ver el log del kubernetes viendo la petición?
+Bueno pues siguiente paso.
+En el paso 7, como veo los pods distribuyendose el trabajo?
+Tengo que grabar un video? que debo mostrar en el? que paso sería este?
+Vale. Antes del video vamos con la fase 8.
+Vale. vamos con el vídeo. Dime paso por paso que tengo que mostrar. También tengo que poner el entorno de nuevo con tres pods a si que como lo pongo así de nuevo.
+Me ha salido un video de 5 minutos. Quiero ahora subir el .mp4 en el release de mi repo. Como lo hago
+Qué pasa si pongo el mismo tag que el video anterior?
+He escrito todo lo que he hecho en el CHANGELOG.md para que no alucines. Te adjunto el archivo. Te adjunto el enunciado de la práctica el cual es el png. Quiero que escribas un archivo llamado documentation.md el cual tendrá toda la información que he puesto en el CHANGELOG.md pero bien estructurada y bonita para hacer la entrega final de la práctica. NO GENERES nada nuevo, solo estructuralo mejor.
