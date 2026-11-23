@@ -62,9 +62,9 @@ Host control
     IdentityFile ~/.ssh/cluster.pem
 ```
 
-Ahora que nos podemos conectar a la máquina, pasamos los scripts de la [carpeta de scripts de kubernetes](../k8s/kubernetes-scripts/) a la máquina remote mediante scp:
+Ahora que nos podemos conectar a la máquina, pasamos los scripts de la [carpeta de scripts de kubernetes](../k8s/) a la máquina remote mediante scp:
 ```bash
-scp -r k8s/kubernetes-scripts control:
+scp -r k8s control:
 ```
 
 Y para terminar este paso ejecutamos el script de instalación de kubernetes desde la máquina remota:
@@ -111,3 +111,35 @@ k8s-worker2   Ready    <none>          44s     v1.35.10   172.31.31.30    <none>
 (Convertir esta salida en una tabla)
 
 
+---
+
+Ahora que tenemos los tres nodos vinculados, vamos a desplegar el servidor RPC en kubernetes.
+
+Para ello usaremos los manifiestos [deployment.yaml](../k8s/deployment.yaml) y [service.yaml](../k8s/service.yaml). Estos manifiestos ya los tenemos descargados en las máquinas porque iban junto a los scripts que hemos usado antes dentro del directorio [k8s](../k8s).
+
+1. Desde el control vamos a convertir los nodos en pods con el siguiente comando:
+```bash
+kubectl apply -f k8s/deployment.yaml
+kubectl apply -f k8s/service.yaml
+```
+
+2. Lo comprobamos ejecutando desde el `rpc_assignment` en local el cliente con la ip pública de cualquier worker, y con el puerto 30007 dando lo siguiente [desde el cliente](../assets/client_into_kubernetes.png) y [desde kubectl](../assets/kubernetes_client.png).
+
+
+Vamos con el escalado y comprobación de balanceo de carga. Vamos a escalar el deployment de 3 a 5 réplicas:
+
+```bash
+kubectl scale deployment rpc-server --replicas=5
+```
+
+[evidencia](../assets/scalated_deployment.png).
+
+Ahora para poner a prueba la carga concurrente, vamos a ejecutar el `rpc_thread_example` con 100 workers. Dando esta salida:
+
+[cliente](../assets/threads.png) y [deployment](../assets/threads_deployment_log.txt).
+
+Finalmente, vamos a comprobar la tolerancia a fallos. Vamos a borrar un pod mientras se está haciendo una petición muy pesada desde el cliente.
+
+[demonstración](../assets/failure_tolerance.gif).
+
+Para terminar la práctica, hay un vídeo que muestra todas las evidencias necesarias en el [release del repo](https://github.com/miguelandin/distributed-systems/releases/download/assignment2-video/kubernetes-demo.mp4)

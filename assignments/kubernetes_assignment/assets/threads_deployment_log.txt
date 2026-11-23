@@ -1,0 +1,200 @@
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 58657)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 50854)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 18692)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 49300)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 65306)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 40979)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 11139)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 17453)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 1132)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 20104)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 6116)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 19338)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 27115)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 3163)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 50016)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 62692)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 2864)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 6510)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 9905)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 24940)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 8609)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 32092)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 23732)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 58657) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 38909)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 57775)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 60956)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 48130)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 60478)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 7677)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 33138)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 1062)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 17453) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 11851)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 6510) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 59053)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 6672)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 64024)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 32092) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 1449)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 60956) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 18692) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 60478) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 6116) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 1449) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 36854)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 19338) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 50854) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 27945)Conexión recibida desde ('10.244.0.0', 38763)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 1405)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 38763) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 27945) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 20104) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 23732) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] 
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 36854) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 1405) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 11139) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 62692) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 9905) petition: {'function': 'tarea_lenta', 'args': [2]}('10.244.0.0', 24940) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] 
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 40979) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 2864) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 59053) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 1132) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 62459)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 62459) petition: {'function': 'tarea_lenta', 'args': [2]}('10.244.0.0', 6672) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] 
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 24455)Conexión recibida desde ('10.244.0.0', 28492)('10.244.0.0', 57775) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] 
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] 
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 65306) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 8609) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 49300) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 7677) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 29151)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 29151) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 48130) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 57244)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 57244) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 33138) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 1062) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 50016) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 11851) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 27115) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 3163) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 28492) petition: {'function': 'tarea_lenta', 'args': [2]}('10.244.0.0', 38909) petition: {'function': 'tarea_lenta', 'args': [2]}Conexión recibida desde ('10.244.0.0', 27393)('10.244.0.0', 64024) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 54373)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 54373) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 48746)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 59664)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] 
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 27393) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] 
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] 
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 24455) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 48746) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 42910)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 42910) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 59664) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 39651)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 39651) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 20827)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 41135)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 41135) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 48268)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 6077)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 45140)Conexión recibida desde ('10.244.0.0', 29352)Conexión recibida desde ('10.244.0.0', 63327)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 63327) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] 
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 45140) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 53902)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 53902) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] 
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 29352) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 6077) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 62695)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 37831)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 15181)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 15181) petition: {'function': 'tarea_lenta', 'args': [2]}('10.244.0.0', 37831) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] 
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 20827) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 13153)Conexión recibida desde ('10.244.0.0', 42137)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 42137) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 54345)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 54345) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] 
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 13153) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 5773)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 5773) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 48268) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 34593)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 7963)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 7963) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 29930)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 29930) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 6582)Conexión recibida desde ('10.244.0.0', 11540)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 11540) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 34593) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 30786)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 62695) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 45555)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 45555) petition: {'function': 'tarea_lenta', 'args': [2]}Conexión recibida desde ('10.244.0.0', 6317)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 30786) petition: {'function': 'tarea_lenta', 'args': [2]}Conexión recibida desde ('10.244.0.0', 43244)Conexión recibida desde ('10.244.0.0', 58356)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 58356) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] 
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] 
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 43244) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] Conexión recibida desde ('10.244.0.0', 51802)
+[pod/rpc-server-7b4b7b5949-7r8kx/rpc-server] ('10.244.0.0', 51802) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 28397)Conexión recibida desde ('10.244.0.0', 40220)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 40220) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 5494)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 5494) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 53679)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 53679) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 50620)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 50620) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 41792)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 2088)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 45299)Conexión recibida desde ('10.244.0.0', 15856)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 15856) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] Conexión recibida desde ('10.244.0.0', 30929)
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 30929) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] 
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] 
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 45299) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-vdmxd/rpc-server] ('10.244.0.0', 6317) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 32938)Conexión recibida desde ('10.244.0.0', 32436)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 32938) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] 
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 32436) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 1274)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 1274) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] 
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 28397) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] 
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 6582) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 26128)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 26128) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 2088) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 63611)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 63611) petition: {'function': 'tarea_lenta', 'args': [2]}Conexión recibida desde ('10.244.0.0', 31300)('10.244.0.0', 41792) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] 
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 31300) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] 
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 35031)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 35031) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 28934)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 28934) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] Conexión recibida desde ('10.244.0.0', 57716)
+[pod/rpc-server-7b4b7b5949-hssz5/rpc-server] ('10.244.0.0', 57716) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] Conexión recibida desde ('10.244.0.0', 5483)
+[pod/rpc-server-7b4b7b5949-b4mpb/rpc-server] ('10.244.0.0', 5483) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 5852)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 5852) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 41556)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 41556) petition: {'function': 'tarea_lenta', 'args': [2]}
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] Conexión recibida desde ('10.244.0.0', 48384)
+[pod/rpc-server-7b4b7b5949-gkqnj/rpc-server] ('10.244.0.0', 48384) petition: {'function': 'tarea_lenta', 'args': [2]}
