@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 from client.rpc_client import RPCClient
+import sys
 
-HOST = "127.0.0.1"
-PORT = 5000
+HOST = sys.argv[1] if len(sys.argv) > 1 else "127.0.0.1"
+
+PORT = 30007
 
 
 def main():

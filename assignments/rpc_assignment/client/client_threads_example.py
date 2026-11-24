@@ -7,8 +7,8 @@ from concurrent.futures import ThreadPoolExecutor
 from client.rpc_client import RPCClient
 
 HOST = sys.argv[1] if len(sys.argv) > 1 else "127.0.0.1"
-PORT = 5000
-N_CLIENTES = 15
+PORT = 30007
+N_CLIENTES = 100
 SEGUNDOS = 2
 
 
